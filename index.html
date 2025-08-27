@@ -19,7 +19,8 @@
 
 <body class="font-['Hind Madurai', sans-serif] bg-[lightseagreen] box-border">
 
-    <header class="flex flex-col md:flex-row justify-center items-center gap-10 md:justify-between bg-white p-8 shadow mb-4 ">
+    <header
+        class="flex flex-col md:flex-row justify-center items-center gap-10 md:justify-between bg-white p-8 shadow mb-4 ">
         <div class="flex gap-4 items-center">
             <img src="./assets/logo.png" alt="" class="w-15 h-15">
             <h1 class="text-4xl font-extrabold text-[#006747]"> Emergency <br> Service</h1>
@@ -51,14 +52,14 @@
                     <img src="./assets/logo-dark.png" alt=" logo's photo" class="w-full">
                 </div>
                 <h1 class="text-white text-3xl font-bold text-center"> জরুরি সেবা ডিরেক্টরি </h1>
-                <p class="text-white text-sm font-bold text-center"> Government Emergency Services at Your Fingertip – A Project by
+                <p class="text-white text-sm font-bold text-center"> Government Emergency Services at Your Fingertip – A
+                    Project by
                     Government of the People’s Republic of Bangladesh </p>
             </div>
-        </section >
+        </section>
+        <section class="w-11/12  mx-auto ">
 
-        <section class="w-11/12  mx-auto pt-8">
-
-            <section id="product-box" class=" w-11/12 grid sm:grid-cols-3 gap-4 lg:grid-cols-9 xl:grid-cols-12  ">
+            <section id="product-box" class="m-10 w-11/12 grid sm:grid-cols-3 gap-4 lg:grid-cols-9 xl:grid-cols-12  ">
                 <section
                     class=" gap-10 grid justify-center sm:col-span-2 lg:col-span-6 lg:grid-cols-2 xl:col-span-9 xl:grid-cols-3 ">
 
@@ -352,8 +353,21 @@
 
 
                 </section>
+                <!-- aside part for call history -->
                 <aside class=" sm:col-span-1 lg:col-span-3 bg-white">
-                    <h1> hello</h1>
+                    <div class="px-4 flex flex-col  gap-4">
+
+                        <div class="flex justify-between items-center pt-10  ">
+                            <h2 class="text-xl font-medium capitalize"> <i class="fa-solid fa-clock"></i> call history
+                            </h2>
+                            <button
+                                class="btn bg-green-500 text-white rounded-xl px-4 text-xl font-medium capitalize text-center">
+                                clear</button>
+                        </div>
+                        <div id="add-cart-container" class=" flex-col flex gap-4">
+
+
+                        </div>
                 </aside>
             </section>
         </section>
