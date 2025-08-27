@@ -1,7 +1,7 @@
 function getElement(id) {
     const element = document.getElementById(id)
     return element
-}
+};
 
 const historyContainer = getElement("call-history-container")
 
@@ -60,8 +60,7 @@ cartContainer.addEventListener("click", function (e) {
         const currentHeartCount = Number(heartCount) + Number(1)
         getElement("heart").innerText = currentHeartCount
     }
-})
-
+});
 
 const clearHistoryButton = getElement("clear-btn")
 clearHistoryButton.addEventListener("click", function () {
